@@ -72,6 +72,7 @@
 			<!-- 这里不排除的话，删掉fastdfs-client这个依赖就会报一个异常：
 			SLF4J: Found binding in [jar:file:/Users/shuzheng/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 			SLF4J: Found binding in [jar:file:/Users/shuzheng/.m2/repository/org/slf4j/slf4j-log4j12/1.7.29/slf4j-log4j12-1.7.29.jar!/org/slf4j/impl/StaticLoggerBinder.class] 
+			在eclipse中，本文件的Dependency Hierarchy中删除slf4j-log4j12依赖则可以在这里生成以下代码
 			-->
 			<exclusions>
 				<exclusion>
